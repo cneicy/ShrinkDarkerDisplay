@@ -1,0 +1,18 @@
+{
+  "Title": "Screen dimmer",
+  "Dim": "Dim",
+  "DarkMode": "Dark mode",
+  "FollowSystem": "Follow system",
+  "Brightness": "Overall brightness",
+  "About": "About",
+  "Exit": "Exit",
+  "Close": "Close",
+  "PrimaryDisplay": " · Main display",
+  "DisplayBrightness": " brightness",
+  "AboutTitle": "About ShrinkDarkerDisplay",
+  "AboutBody": "Windows 11 screen dimmer\nVersion {version}\n\nReleased under the MIT License.",
+  "SettingsLoadError": "Could not load settings; the original file was kept: ",
+  "SettingsSaveError": "Could not save settings: ",
+  "BrightnessRestored": "Brightness restored: ",
+  "HotkeyUnavailable": "Emergency hotkey unavailable. Turn dimming off or exit to restore brightness."
+}

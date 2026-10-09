@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+        <TargetPlatformMinVersion>10.0.22000.0</TargetPlatformMinVersion>
+        <UseWinUI>true</UseWinUI>
+        <WinUISDKReferences>false</WinUISDKReferences>
+        <WindowsPackageType>None</WindowsPackageType>
+        <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+        <EnableMsixTooling>true</EnableMsixTooling>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+        <AssemblyName>ShrinkDarkerDisplay.App</AssemblyName>
+        <RootNamespace>ShrinkDarkerDisplay.App</RootNamespace>
+        <ApplicationIcon>Assets\ShrinkDarkerDisplay.ico</ApplicationIcon>
+        <PublishAot>true</PublishAot>
+        <PublishTrimmed>true</PublishTrimmed>
+        <OptimizationPreference>Size</OptimizationPreference>
+        <IlcOptimizationPreference>Size</IlcOptimizationPreference>
+        <DebugType>none</DebugType>
+        <ApplicationManifest Condition="'$(UiAccess)' != 'true'">app.manifest</ApplicationManifest>
+        <ApplicationManifest Condition="'$(UiAccess)' == 'true'">app.uiaccess.manifest</ApplicationManifest>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="Localization\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/>
+        <Content Include="Assets\ShrinkDarkerDisplay.svg" CopyToOutputDirectory="PreserveNewest"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Assets\ShrinkDarkerDisplay.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.WindowsAppSDK.InteractiveExperiences" Version="2.1.9"/>
+        <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" Version="2.3.9"/>
+        <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705"/>
+        <ProjectReference Include="../ShrinkDarkerDisplay.Core/ShrinkDarkerDisplay.Core.csproj"/>
+    </ItemGroup>
+</Project>

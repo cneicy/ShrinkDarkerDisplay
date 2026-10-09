@@ -1,0 +1,18 @@
+{
+  "Title": "螢幕調暗",
+  "Dim": "調暗",
+  "DarkMode": "深色模式",
+  "FollowSystem": "跟隨系統",
+  "Brightness": "總亮度",
+  "About": "關於",
+  "Exit": "結束",
+  "Close": "關閉",
+  "PrimaryDisplay": " · 主螢幕",
+  "DisplayBrightness": "亮度",
+  "AboutTitle": "關於 ShrinkDarkerDisplay",
+  "AboutBody": "Windows 11 螢幕調暗工具\n版本 {version}\n\n本專案以 MIT License 開源。",
+  "SettingsLoadError": "無法讀取設定，已保留原始檔案：",
+  "SettingsSaveError": "無法儲存設定：",
+  "BrightnessRestored": "已恢復亮度：",
+  "HotkeyUnavailable": "緊急恢復快捷鍵無法使用，可關閉調暗或結束程式以恢復亮度。"
+}

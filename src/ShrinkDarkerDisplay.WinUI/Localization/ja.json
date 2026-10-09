@@ -1,0 +1,18 @@
+{
+  "Title": "画面の明るさ",
+  "Dim": "調光",
+  "DarkMode": "ダークモード",
+  "FollowSystem": "システム設定",
+  "Brightness": "全体の明るさ",
+  "About": "このアプリについて",
+  "Exit": "終了",
+  "Close": "閉じる",
+  "PrimaryDisplay": " · メイン画面",
+  "DisplayBrightness": "の明るさ",
+  "AboutTitle": "ShrinkDarkerDisplay について",
+  "AboutBody": "Windows 11 画面調光ツール\nバージョン {version}\n\nMIT License で公開しています。",
+  "SettingsLoadError": "設定を読み込めませんでした。元のファイルは保持されています：",
+  "SettingsSaveError": "設定を保存できませんでした：",
+  "BrightnessRestored": "明るさを復元しました：",
+  "HotkeyUnavailable": "緊急復元キーを登録できません。調光をオフにするか終了して明るさを戻してください。"
+}

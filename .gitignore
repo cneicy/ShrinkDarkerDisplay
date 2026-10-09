@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+artifacts/
+.vs/
+*.user
+*.pfx
+work/
+.idea/
+installer/TrustNotice.txt
+__pycache__/
