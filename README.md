@@ -4,6 +4,9 @@
 
 A compact Windows 11 screen dimmer built with C#, WinUI 3 and .NET 10 NativeAOT.
 
+![screenshot](https://s41.ax1x.com/2026/10/10/pnUdTiV.png)
+
+
 ## Features
 
 - Independent dimming for each monitor, from 10% to 100%.
